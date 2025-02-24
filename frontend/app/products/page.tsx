@@ -6,28 +6,25 @@ import ProductCard from "../components/productcard";
 const mockProducts = [
   {
     id: 1,
-    title: "Wireless Headphones",
-    description:
-      "High-quality wireless headphones with noise cancellation feature",
-    price: 199.99,
-    imageUrl: "/images/headphones.jpg",
+    title: "Premium Headphones",
+    description: "Wireless noise-cancelling headphones with premium sound quality",
+    price: 299.99,
+    imageUrl: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 2,
-    title: "Smartwatch",
-    description: "Feature-rich smartwatch with health tracking capabilities",
-    price: 299.99,
-    imageUrl: "/images/smartwatch.jpg",
+    title: "Smartwatch Elite",
+    description: "Advanced smartwatch with health monitoring features",
+    price: 249.99,
+    imageUrl: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 3,
-    title: "Laptop Backpack",
-    description:
-      "Durable and spacious laptop backpack with multiple compartments",
+    title: "Travel Backpack",
+    description: "Durable and spacious backpack for all your adventures",
     price: 79.99,
-    imageUrl: "/images/backpack.jpg",
-  },
-  // Add more mock products as needed
+    imageUrl: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+  }
 ];
 
 export default function ProductsPage() {
