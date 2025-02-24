@@ -1,3 +1,7 @@
+frontend/node_modules/@next/.swc-win32-x64-msvc-Q2T7Iwiw/
+frontend/node_modules/@next/swc-win32-x64-msvc/
+*.node
+ 
 /vendor/
 /node_modules
 /public/hot
